@@ -5,5 +5,5 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {
-        "message": "Faceless AI Video Backend is running!"
+        "message": "Faceless AI Video Backend is running! "
     }
